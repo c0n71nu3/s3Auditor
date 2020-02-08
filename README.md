@@ -26,7 +26,7 @@ An *opinionated* s3 auditor. It generates a report of *improper* S3 bucket acces
 ### Output interpretation
 - Stdout messages are running logs of the script run. They may aid in debugging if needed
 - The results of the script run are available in user specified filename or default filename (as csv). The csv may look something like the below snapshot (when opened with a csv reader, like MS Excel, Numbers etc.)
-
+![Sample Report](/sampleReport.png?raw=true "Sample Report")
 
 - There are 4 columns in the report
   - policyName => the policy becasue of which *a certain access* is being given *to a certain entity*
