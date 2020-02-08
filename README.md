@@ -59,11 +59,19 @@ An *opinionated* s3 auditor. It generates a report of *improper* S3 bucket acces
 
 ### Todos
 ☐ make it multi threaded
+
 ☐ in order to make it flexible (still opinionated), add support for custom policies to check against for issues
+
 ☐ modify to allow running of the script with even smaller set of absolutely needed permissions, instead of the SecurityAudit AWS Managed Policy (being currently used)
+
 ☐ add object level checks as well
+
 ☐ add support for other output formats, like json, html etc.
+
 ☐ upgrade to python3
+
 ☐ handle exceptions better
+
 ☐ possibly make the output more legible/better organized. Add an impact column to the report as well perhaps
+
 ☐ dev comments around the functions to aid legibility
