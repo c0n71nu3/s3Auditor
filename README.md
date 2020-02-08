@@ -1,5 +1,5 @@
 # AWS S3 Auditor
-An *opinionated* s3 auditor. It generates a report of *improper* S3 bucket access. (*'Improper'* means violations benchmarked against the opinions about what's considered secure as per a certain organization, actors involved & the reason/s for the violation. - More details around the opinions/assumptions can be found [here])(http://localhost:2368/audit-aws-s3/). 
+An *opinionated* s3 auditor. It generates a report of *improper* S3 bucket access. (*'Improper'* means violations benchmarked against the opinions about what's considered secure as per a certain organization, actors involved & the reason/s for the violation. - More details around the opinions/assumptions can be found [nuckingfoob.me](http://www.nuckingfoob.me/audit-aws-s3/index.html) 
 
     python auditS3.py -h
     usage: auditS3.py [-h] [-b bucketName] [-o outfileName] profile accountId
